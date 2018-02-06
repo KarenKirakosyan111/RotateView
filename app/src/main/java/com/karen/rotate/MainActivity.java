@@ -67,7 +67,8 @@ public class MainActivity extends AppCompatActivity {
                 if (startDegree <=-360) {
                     startDegree += 360;
                 }
-                txt.setText("From " + startDegree + " to " + (startDegree + getDegree(initialX, finalX)));
+                txt.setText("Rotation degree " + getDegree(initialX, finalX));
+//                txt.setText("From " + startDegree + " to " + (startDegree + getDegree(initialX, finalX)));
                 break;
             default:
                 break;
